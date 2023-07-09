@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.width{
+    width: 95%;
+}
+
+.t-color {
+    color: #4F4F4F;
+}
+
+.main-color {
+    background-color: #FAFAFA;
+}
+
+.instruction li {
+    margin-bottom: 30px;
+}
+
+.text-sm h2 {
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+.yield h3 {
+    color: #BDBDBD;
+    font-weight: 700;
+}
+
+.span-color {
+    color: #333333;
+
+}
+
+.list {
+    @apply w-full font-Montserrat text-base font-normal ml-1 text-justify span-color;
+}
+
+@media (min-width: 640px) {
+    .sm\:p-width {
+        width: 40rem/* 640px */;
+    }
+}
