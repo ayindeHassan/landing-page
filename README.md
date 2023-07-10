@@ -1,4 +1,4 @@
-# Intruduction
+# INTRODUCTION
 
 This is a repostory showcasing my skills in the following aspect:
 
