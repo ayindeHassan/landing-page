@@ -23,7 +23,7 @@ This is just viable minimun product, still working to add more features like:
 
 ## Demo
 
-You can find the demo of this website from [recipeblog](https://profilepage.vercel.app)
+You can find the demo of this website from [recipeblog](https://skillpage.vercel.app)
 
 ## Skills Achieved
 
@@ -33,6 +33,10 @@ Bellow are the skills achieved from building this landing page:
 * Building website that is responsive to any screensize.
 * Using custom font family declared in the *tailwind.config.js* file.
 * Using custom color declared in the *tailwind.config.js* file.
+
+# Hosting Website
+
+This project is hosted on [vercel](www.vercel.com)
 
 ## Challenges Faced
 
