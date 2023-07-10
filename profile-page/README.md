@@ -34,7 +34,7 @@ Bellow are the skills achieved from building this landing page:
 * Using custom font family declared in the *tailwind.config.js* file.
 * Using custom color declared in the *tailwind.config.js* file.
 
-# Hosting Website
+## Hosting Website
 
 This project is hosted on [vercel](www.vercel.com)
 
