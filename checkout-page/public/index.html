@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product checkout</title>
+    <link rel="icon" href="images/logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <main class="w-11/12 max-w-md m-auto sm:w-4/6 md:w-11/12 md:max-w-5xl lg:max-w-7xl mb-10">
+        <header class="m-auto ml-8 md:ml-0 md:text-center mb-7 mt-5">
+            <h1 class="capitalize font-Montserrat font-semibold text-3xl" style="color: #4E5150;">checkout</h1>
+        </header>
+        <section class="md:flex justify-around items-start md:w-full ">
+            <div></div>
+            <div class="font-Montserrat w-11/12 m-auto md:m-0 max-w-sm bg-product-100 pt-7 pb-5 rounded-2xl order-2">
+                <div class="flex mb-8 justify-center h-3/5 max-h-36 sm:h-auto w-full">
+                    <div class="w-2/5 sm:w-40 overflow-hidden rounded-2xl mr-percent">
+                        <img src="images/photo1.png" alt="" class="w-full h-full">
+                    </div>
+                    <div class="font-semibold relative">
+                        <h2 class="text-sm w-32 text-formTitle capitalize">vintage backbag</h2>
+                        <p class="text-sm flex items-center h-10 mt-percent justify-between">
+                            <span class="text-base text-price">
+                                $<span class="productPrice">54.99</span>
+                            </span>
+                            <span class="line-through text-formTitle">
+                                $<span class="oldProductPrice">94.99</span>
+                            </span>
+                        </p>
+                        <div class="flex justify-around text-base sm:text-lg absolute bottom-0 border border-product-200 rounded-lg w-full p-2">
+                            <p class="text-product-200 bg-gray-300 w-6 text-center rounded-md cursor-pointer subtract">-</p>
+                            <p class="productQty text-formTitle">1</p>
+                            <p class="text-product-200 bg-gray-300 w-6 text-center rounded-md cursor-pointer add">+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex mb-14 justify-center h-3/5 max-h-36 sm:h-auto w-full">
+                    <div class="overflow-hidden w-2/5 sm:w-40 rounded-2xl mr-percent">
+                        <img src="images/photo2.png" alt="" class="w-full">
+                    </div>
+                    <div class="font-semibold relative">
+                        <h2 class="text-sm w-32 text-formTitle capitalize">levi shoes</h2>
+                        <p class="text-sm flex items-center h-10 mt-percent justify-between">
+                            <span class="text-base text-price">
+                                $<span class="productPrice">74.99</span>
+                            </span>
+                            <span class="line-through text-formTitle">
+                                $<span class="oldProductPrice">124.99</span>
+                            </span> 
+                        </p>
+                        <div class="flex justify-around text-base sm:text-lg absolute bottom-0 border rounded-lg border-product-200 w-full py-2">
+                            <p class="text-product-200 bg-gray-300 w-6 text-center rounded-md cursor-pointer subtract">-</p>
+                            <p class="productQty text-formTitle">1</p>
+                            <p class="text-product-200 bg-gray-300 w-6 text-center rounded-md cursor-pointer add">+</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-11/12 m-auto max-w-[18.5rem] text-formTitle font-semibold text-base capitalize">
+                    <div class="flex justify-between border-t border-gray-300 mb-5 pt-0.5">
+                        <p>shipping</p>
+                        <p>$<span>19</span></p>
+                    </div>
+                    <div class="flex justify-between border-t border-gray-30 pt-0.5">
+                        <p>total</p>
+                        <p>$<span id="totalPrice">129.98</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="w-11/12 m-auto max-w-sm md:mx-0 md:w-full font-Montserrat md:mr-8 mt-6 md:mt-0">
+                <div class="font-Montserrat">
+                    <h2 class="text-lg font-semibold text-formTitle capitalize">contact information</h2>
+                    <form action="" class="mt-1">
+                        <div>
+                            <label for="" class="capitalize text-formLabel font-semibold">email</label> 
+                            <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                    <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+                                    <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+                                </svg>
+                                <input type="email" name="" id="" placeholder="Enter your Email..." class="w-full focus:outline-none leading-10 text-base font-semibold text-product-200">
+                            </div>
+                        </div>
+                        <div class="">
+                            <label for="phone" class="capitalize text-formLabel font-semibold">phone</label>
+                            <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                    <path fill-rule="evenodd" d="M1.5 4.5a3 3 0 013-3h1.372c.86 0 1.61.586 1.819 1.42l1.105 4.423a1.875 1.875 0 01-.694 1.955l-1.293.97c-.135.101-.164.249-.126.352a11.285 11.285 0 006.697 6.697c.103.038.25.009.352-.126l.97-1.293a1.875 1.875 0 011.955-.694l4.423 1.105c.834.209 1.42.959 1.42 1.82V19.5a3 3 0 01-3 3h-2.25C8.552 22.5 1.5 15.448 1.5 6.75V4.5z" clip-rule="evenodd" />
+                                </svg>
+                                <input type="tel" name="" id="phone" placeholder="Enter your Phone..." class="w-full focus:outline-none leading-10 text-base font-semibold text-product-200">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="mt-9">
+                    <h2 class="text-lg font-semibold text-formTitle capitalize">shopping address</h2>
+                    <form action="" class="mt-1">
+                        <div>
+                            <label for="fname" class="capitalize text-formLabel font-semibold">Full name</label>
+                            <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                    <path fill-rule="evenodd" d="M18.685 19.097A9.723 9.723 0 0021.75 12c0-5.385-4.365-9.75-9.75-9.75S2.25 6.615 2.25 12a9.723 9.723 0 003.065 7.097A9.716 9.716 0 0012 21.75a9.716 9.716 0 006.685-2.653zm-12.54-1.285A7.486 7.486 0 0112 15a7.486 7.486 0 015.855 2.812A8.224 8.224 0 0112 20.25a8.224 8.224 0 01-5.855-2.438zM15.75 9a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0z" clip-rule="evenodd" />
+                                </svg>
+                                <input type="text" name="" id="fname" placeholder="Firstname Lastname" class="w-full focus:outline-none leading-10 text-base font-semibold text-product-200">                                
+                            </div>
+                        </div>
+                        <div>
+                            <label for="address" class="capitalize text-formLabel font-semibold">address</label>
+                            <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-3">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                    <path d="M11.47 3.84a.75.75 0 011.06 0l8.69 8.69a.75.75 0 101.06-1.06l-8.689-8.69a2.25 2.25 0 00-3.182 0l-8.69 8.69a.75.75 0 001.061 1.06l8.69-8.69z" />
+                                    <path d="M12 5.432l8.159 8.159c.03.03.06.058.091.086v6.198c0 1.035-.84 1.875-1.875 1.875H15a.75.75 0 01-.75-.75v-4.5a.75.75 0 00-.75-.75h-3a.75.75 0 00-.75.75V21a.75.75 0 01-.75.75H5.625a1.875 1.875 0 01-1.875-1.875v-6.198a2.29 2.29 0 00.091-.086L12 5.43z" />
+                                </svg>
+                                <input type="text" name="" placeholder="Your Address..." id="address" class="w-full focus:outline-none leading-10 text-base font-semibold text-product-200">                                 
+                            </div>
+                        </div>
+                        <div class="mb-5">
+                            <label for="city" class="capitalize text-formLabel font-semibold">city</label>
+                            <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                    <path fill-rule="evenodd" d="M3 2.25a.75.75 0 000 1.5v16.5h-.75a.75.75 0 000 1.5H15v-18a.75.75 0 000-1.5H3zM6.75 19.5v-2.25a.75.75 0 01.75-.75h3a.75.75 0 01.75.75v2.25a.75.75 0 01-.75.75h-3a.75.75 0 01-.75-.75zM6 6.75A.75.75 0 016.75 6h.75a.75.75 0 010 1.5h-.75A.75.75 0 016 6.75zM6.75 9a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM6 12.75a.75.75 0 01.75-.75h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 6a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zm-.75 3.75A.75.75 0 0110.5 9h.75a.75.75 0 010 1.5h-.75a.75.75 0 01-.75-.75zM10.5 12a.75.75 0 000 1.5h.75a.75.75 0 000-1.5h-.75zM16.5 6.75v15h5.25a.75.75 0 000-1.5H21v-12a.75.75 0 000-1.5h-4.5zm1.5 4.5a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008zm.75 2.25a.75.75 0 00-.75.75v.008c0 .414.336.75.75.75h.008a.75.75 0 00.75-.75v-.008a.75.75 0 00-.75-.75h-.008zM18 17.25a.75.75 0 01.75-.75h.008a.75.75 0 01.75.75v.008a.75.75 0 01-.75.75h-.008a.75.75 0 01-.75-.75v-.008z" clip-rule="evenodd" />
+                                </svg>
+                                <input type="text" name="" id="city" placeholder="Your City..." class="w-full focus:outline-none leading-10 text-base font-semibold text-product-200">                                
+                            </div>
+                        </div>
+                        <div class="sm:grid grid-cols-2 w-full gap-4">
+                            <div class="w-full">
+                                <label for="country" class="capitalize text-formLabel font-semibold">country</label>
+                                <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 ml-2">
+                                        <path d="M15.75 8.25a.75.75 0 01.75.75c0 1.12-.492 2.126-1.27 2.812a.75.75 0 11-.992-1.124A2.243 2.243 0 0015 9a.75.75 0 01.75-.75z" />
+                                        <path fill-rule="evenodd" d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM4.575 15.6a8.25 8.25 0 009.348 4.425 1.966 1.966 0 00-1.84-1.275.983.983 0 01-.97-.822l-.073-.437c-.094-.565.25-1.11.8-1.267l.99-.282c.427-.123.783-.418.982-.816l.036-.073a1.453 1.453 0 012.328-.377L16.5 15h.628a2.25 2.25 0 011.983 1.186 8.25 8.25 0 00-6.345-12.4c.044.262.18.503.389.676l1.068.89c.442.369.535 1.01.216 1.49l-.51.766a2.25 2.25 0 01-1.161.886l-.143.048a1.107 1.107 0 00-.57 1.664c.369.555.169 1.307-.427 1.605L9 13.125l.423 1.059a.956.956 0 01-1.652.928l-.679-.906a1.125 1.125 0 00-1.906.172L4.575 15.6z" clip-rule="evenodd" />
+                                    </svg>
+                                    <div class="relative w-full ml-2">
+                                        <select name="" id="country" class=" capitalize block w-full font-Montserrat appearance-none bg-white text-gray-700 pr-8 rounded leading-10 focus:outline-none focus:bg-white focus:border-gray-500">
+                                            <option value="" class="leading-10">your country</option>
+                                            <option value="" class="leading-10">lagos</option>
+                                            <option value="" class="leading-10">ogun</option>
+                                            <option value="" class="leading-10">abuja</option>
+                                        </select>
+                                        <div class="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#828282" class="w-5 h-5">
+                                                <path fill-rule="evenodd" d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z" clip-rule="evenodd" />
+                                            </svg>
+                                        </div>                                            
+                                    </div>                                                                      
+                                </div>
+                            </div>
+                            <div class="w-full">
+                                <label for="pcode" class="capitalize text-formLabel font-semibold">postal code</label>
+                                <div class="flex border border-product-200 items-center mb-3 rounded-xl overflow-hidden mt-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#828282" class="w-6 h-6 mr-3 ml-2">
+                                        <path d="M19.006 3.705a.75.75 0 00-.512-1.41L6 6.838V3a.75.75 0 00-.75-.75h-1.5A.75.75 0 003 3v4.93l-1.006.365a.75.75 0 00.512 1.41l16.5-6z" />
+                                        <path fill-rule="evenodd" d="M3.019 11.115L18 5.667V9.09l4.006 1.456a.75.75 0 11-.512 1.41l-.494-.18v8.475h.75a.75.75 0 010 1.5H2.25a.75.75 0 010-1.5H3v-9.129l.019-.006zM18 20.25v-9.565l1.5.545v9.02H18zm-9-6a.75.75 0 00-.75.75v4.5c0 .414.336.75.75.75h3a.75.75 0 00.75-.75V15a.75.75 0 00-.75-.75H9z" clip-rule="evenodd" />
+                                    </svg>
+                                    <input type="text" name="" id="pcode" placeholder="Postal Code..." class="w-full focus:outline-none text-base font-semibold text-product-200 leading-10">
+                                </div>
+                            </div>
+                        </div>             
+                        <div class="text-formLabel">
+                            <input type="checkbox" name="saveInfo" id="saveInfo" class="cursor-pointer">
+                            <label for="saveInfo">Save this information for next time</label>
+                        </div>
+                        <div class="mt-3 flex justify-end">
+                            <a href="" class="capitalize bg-price text-white py-2 px-5 font-semibold rounded-lg btn">continue</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
